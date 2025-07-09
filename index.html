@@ -1,1 +1,213 @@
-<h1>hola mundo 2</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página dedicada a Labubu - El adorable personaje de L.O.L Surprise!">
+    <meta name="keywords" content="Labubu, L.O.L Surprise, juguetes, muñecas, colección">
+    <title>Labubu - L.O.L Surprise!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-star"></i>
+                    <span>Labubu World</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                    <li><a href="#galeria" class="nav-link">Galería</a></li>
+                    <li><a href="#coleccion" class="nav-link">Colección</a></li>
+                    <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">¡Bienvenido al Mundo de Labubu!</h1>
+                    <p class="hero-subtitle">Descubre la magia y la diversión del adorable personaje de L.O.L Surprise!</p>
+                    <button class="cta-button" onclick="scrollToSection('galeria')">
+                        <i class="fas fa-heart"></i>
+                        Explorar Galería
+                    </button>
+                </div>
+                <div class="hero-image">
+                    <div class="labubu-character">
+                        <div class="character-body">
+                            <div class="character-head">
+                                <div class="eyes">
+                                    <div class="eye left"></div>
+                                    <div class="eye right"></div>
+                                </div>
+                                <div class="mouth"></div>
+                            </div>
+                            <div class="character-body-main"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Galería de Labubu</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-image labubu-1"></div>
+                            <div class="card-content">
+                                <h3>Labubu Clásico</h3>
+                                <p>La versión original que todos amamos</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-image labubu-2"></div>
+                            <div class="card-content">
+                                <h3>Labubu Glitter</h3>
+                                <p>Brillante y lleno de magia</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-image labubu-3"></div>
+                            <div class="card-content">
+                                <h3>Labubu Rainbow</h3>
+                                <p>Colorido y vibrante</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <div class="card-image labubu-4"></div>
+                            <div class="card-content">
+                                <h3>Labubu Special Edition</h3>
+                                <p>Edición especial limitada</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="coleccion" class="collection">
+            <div class="container">
+                <h2 class="section-title">Colección Completa</h2>
+                <div class="collection-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Variedades</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">Coleccionistas</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">5</div>
+                        <div class="stat-label">Años de Historia</div>
+                    </div>
+                </div>
+                <div class="collection-features">
+                    <div class="feature">
+                        <i class="fas fa-gem"></i>
+                        <h3>Calidad Premium</h3>
+                        <p>Materiales de alta calidad para la mejor experiencia</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-magic"></i>
+                        <h3>Diseño Único</h3>
+                        <p>Cada Labubu tiene su propio carácter especial</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-heart"></i>
+                        <h3>Hecho con Amor</h3>
+                        <p>Creado para traer alegría a todos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact">
+            <div class="container">
+                <h2 class="section-title">¡Únete a la Comunidad!</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Conecta con otros fans</h3>
+                        <p>Comparte tu colección y descubre nuevas variedades de Labubu</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Tu email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos sobre tu colección de Labubu" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Labubu World</h4>
+                    <p>Dedicado a todos los fans de Labubu y L.O.L Surprise!</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#coleccion">Colección</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Síguenos</h4>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Labubu World. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
